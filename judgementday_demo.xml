@@ -127,7 +127,56 @@
 			<speed-constant>1</speed-constant>
 		</parameters>
 
-		
+	<entry>
+		<type>escort</type>
+			<model>Models/Maritime/Military/OliverPerryFFG-high-detail.xml</model>
+			<name>Escort-1</name>
+			<callsign>OliverPerryFFG</callsign>
+			<turn-radius-ft alias="../../parameters/turn-radius-ft"/>
+			<fixed-turn-radius-ft alias="../../parameters/fixed-turn-radius-ft"/>
+			<rudder-constant alias="../../parameters/rudder-constant"/>
+			<speed-constant alias="../../parameters/speed-constant"/>
+			<roll-factor>2</roll-factor>
+			<station>
+				<range-nm>2</range-nm>
+				<brg-deg>330</brg-deg>
+				<parent>JudgmentDay</parent>
+			</station>
+	</entry>
+	
+	<entry>
+		<type>escort</type>
+			<model>Models/Maritime/Military/CG-57-high-detail/CG-57.xml</model>
+			<name>Escort-2</name>
+			<callsign>CG-57</callsign>
+			<turn-radius-ft alias="../../parameters/turn-radius-ft"/>
+			<fixed-turn-radius-ft alias="../../parameters/fixed-turn-radius-ft"/>
+			<rudder-constant alias="../../parameters/rudder-constant"/>
+			<speed-constant alias="../../parameters/speed-constant"/>
+			<roll-factor>2</roll-factor>
+			<station>
+				<range-nm>5</range-nm>
+				<brg-deg>75</brg-deg>
+				<parent>JudgmentDay</parent>
+			</station>
+	</entry>
+
+	<entry>
+		<type>escort</type>
+			<model>Models/Maritime/Military/CG-57-high-detail/CG-57.xml</model>
+			<name>Escort-3</name>
+			<callsign>PSC9</callsign>
+			<turn-radius-ft alias="../../parameters/turn-radius-ft"/>
+			<fixed-turn-radius-ft alias="../../parameters/fixed-turn-radius-ft"/>
+			<rudder-constant alias="../../parameters/rudder-constant"/>
+			<speed-constant alias="../../parameters/speed-constant"/>
+			<roll-factor>2</roll-factor>
+			<station>
+				<range-nm>6</range-nm>
+				<brg-deg>200</brg-deg>
+				<parent>JudgmentDay</parent>
+			</station>
+	</entry>
 
 
 	</scenario>
